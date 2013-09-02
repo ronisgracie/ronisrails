@@ -20,5 +20,5 @@ doc/
 .DS_Store
 .idea
 
-# Ignore the Pins Images
+# Ignore Paperclip uploaded files
 /public/system
