@@ -20,6 +20,7 @@
       </ul>
       <ul class="nav pull-right">
           <% if user_signed_in? %>
+            <li><%= link_to "Add Pin", new_pin_path %></li>
             <li><%= link_to "Pins", pins_path %></li>
             <li><%= link_to "Editar Perfil", edit_user_registration_path %></li>
             <li><%= link_to "Sair", destroy_user_session_path, method: :delete %></li>
