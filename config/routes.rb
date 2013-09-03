@@ -6,7 +6,7 @@ Ronisrails::Application.routes.draw do
 
   get 'about' => 'page#about'
 
-  root :to => 'page#home'
+  root :to => 'pins#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
